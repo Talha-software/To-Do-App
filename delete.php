@@ -2,7 +2,7 @@
     include 'database.php';
     $id=$_GET['id'];
 
-    $sql="DELETE FROM todos WHERE id=$id";
+    $sql="DELETE FROM learnto WHERE id=$id";
     $result=mysqli_query($conn, $sql);
 
     if($result){
