@@ -26,7 +26,7 @@
     <ul id="list-container">
       <?php
       include "database.php";
-      $sql = "SELECT * FROM learnto";
+      $sql = "SELECT * FROM todos";
       $result = mysqli_query($conn, $sql);
       if ($result) {
         while ($rows = mysqli_fetch_assoc($result)) {
