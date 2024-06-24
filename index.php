@@ -36,7 +36,7 @@
 
 
       ?>
-          <li><span><?php echo $id ?></span> : <?php echo $title ?></li> <a href="delete.php?id=<?php echo $id ?>" role="button"><button class="ui-btn">Completed</button></a>
+          <li> <?php echo $title ?></li> <a href="delete.php?id=<?php echo $id ?>" role="button"><button class="ui-btn">Completed</button></a>
       <?php
         }
       }
