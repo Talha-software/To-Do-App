@@ -32,9 +32,6 @@
         while ($rows = mysqli_fetch_assoc($result)) {
           $id = $rows["id"];
           $title = $rows["Title"];
-
-
-
       ?>
           <li> <?php echo $title ?></li> <a href="delete.php?id=<?php echo $id ?>" role="button"><button class="ui-btn">Completed</button></a>
       <?php
