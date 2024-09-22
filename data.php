@@ -7,4 +7,4 @@ if ($result) {
     header("location: ./index.php");
 } else {
     echo "failed";
-}   
+}
